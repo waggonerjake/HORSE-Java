@@ -1,0 +1,15 @@
+# Honor Pledge:
+#
+# I pledge that I have neither given nor
+# received any help on this assignment.
+#
+# jwaggon
+
+all: PlayerJava GameJava
+
+PlayerJava: Player.java
+	javac Player.java
+GameJava: Game.java
+	javac Game.java
+clean:
+	rm -f .class
